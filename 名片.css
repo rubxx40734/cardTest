@@ -1,0 +1,239 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.wrap {
+  max-width: 1024px;
+  margin: 0 auto;
+}
+
+.container {
+  padding: 20px 150px;
+}
+
+.name {
+  border-bottom: 2px solid black;
+  padding: 0 0 15px 0;
+  margin-bottom: 30px;
+}
+
+.name h1 {
+  font-size: 40px;
+}
+
+.Pct {
+  margin-bottom: 40px;
+}
+
+.Pct img {
+  width: 200px;
+}
+
+h2 {
+  font-weight: 600;
+  font-size: 20px;
+  border-bottom: 2px solid #cacaca;
+  padding: 0 0 10px 0;
+  margin-bottom: 20px;
+}
+
+span {
+  color: #e24e4e;
+  font-size: 13px;
+  margin-left: 10px;
+}
+
+.personItem1 {
+  margin-bottom: 25px;
+}
+
+.personItem2 {
+  margin-bottom: 40px;
+}
+
+.personItem1 p {
+  color: #666565;
+  margin-bottom: 8px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.personItem2 p {
+  color: #666565;
+  margin-bottom: 8px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.school p {
+  color: #666565;
+  margin-bottom: 8px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.skills {
+  background-color: #f083b9;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.personItem2 p {
+  text-align: left;
+}
+
+.skillsItem1 p {
+  color: white;
+  font-size: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  border-bottom: 2px solid #cacaca;
+}
+
+.skillsItem1 {
+  margin-top: 25px;
+  width: 600px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.skillsItem1 p {
+  padding: 0 0 8px 0;
+}
+
+.skillsItem2 p {
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-bottom: 10px;
+}
+
+.skillsItem2 {
+  margin-bottom: 30px;
+  padding: 0 0 0 15px;
+  border-left: 2px solid #cacaca;
+}
+
+.work h3 {
+  font-size: 18px;
+  font-weight: 550;
+  margin-bottom: 5px;
+}
+.work img {
+  margin-bottom: 5px;
+}
+.work .txt {
+  width: 500px;
+}
+.work .txt p {
+  color: #666565;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  line-height: 1.5;
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+.work h4 {
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+.work p {
+  color: #666565;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  line-height: 1.5;
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #f083b9;
+  width: 1024px;
+  padding: 20px;
+}
+.footer h5 {
+  color: white;
+  font-size: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  border-bottom: 2px solid #cacaca;
+  width: 600px;
+  text-align: center;
+  padding: 0 0 8px 0;
+  margin-bottom: 20px;
+}
+.footer .detail {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.footer .detail p {
+  color: white;
+  font-size: 14px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  line-height: 1.5;
+}
+.footer .facebook {
+  width: 200px;
+  display: flex;
+  justify-content: space-around;
+}
+.footer .facebook img {
+  width: 45px;
+}
